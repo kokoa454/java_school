@@ -1,1 +1,1 @@
-# java_school
+# Java in school
