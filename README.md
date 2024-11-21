@@ -1,1 +1,1 @@
-# Java in school
+Java in school
