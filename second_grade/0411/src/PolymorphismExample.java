@@ -21,5 +21,15 @@ public class PolymorphismExample {
                 System.out.println("試験問題を作ります。");
             }
         }
+
+        Person[] people = new Person[3];
+
+        people[0] = new Person();
+        people[1] = new Student();
+        people[2] = new Teacher();
+
+        for(int i = 0; i < people.length; i++){
+            people[i].work();
+        }
     }
 }
