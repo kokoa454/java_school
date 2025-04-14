@@ -30,6 +30,10 @@ public class PolymorphismExample {
 
         for(int i = 0; i < people.length; i++){
             people[i].work();
+
+            if(people[i] instanceof Teacher){
+                ((Teacher)people[i]).makeTest();
+            }
         }
     }
 }
