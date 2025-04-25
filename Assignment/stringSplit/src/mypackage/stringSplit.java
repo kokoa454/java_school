@@ -1,8 +1,8 @@
-// company employees list spliter
+package mypackage;
 import java.util.List;
 
 public class stringSplit {
-    public static void main(String[] args) throws Exception {
+    public void splitList() {
         List<String> employees = List.of(
             "武藤敬司, 61, 男, NE",
             "長州力, 73, 男, SE",
