@@ -1,8 +1,9 @@
-// luck checker
+package mypackage;
+
 import java.util.Scanner;
 
 public class stringAndMath {
-    public static void main(String[] args) throws Exception {
+    public void checkLuck() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("名前を入力: ");
         String name = scanner.nextLine();
