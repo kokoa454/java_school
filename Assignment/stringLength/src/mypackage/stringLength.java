@@ -1,9 +1,8 @@
-// password length checker (password must be at least 8 characters long)
-
+package mypackage;
 import java.util.Scanner;
 
 public class stringLength {
-    public static void main(String[] args) throws Exception {
+    public void checkPassword() {
         Scanner scanner = new Scanner(System.in);
 
         while(true){
