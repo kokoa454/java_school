@@ -1,9 +1,9 @@
 // luck checker
-import mypackage.stringAndMath;
+import mypackage.StringAndMath;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws Exception {
-        stringAndMath stringAndMath = new stringAndMath();
+        StringAndMath stringAndMath = new StringAndMath();
         stringAndMath.checkLuck();
     }
 }

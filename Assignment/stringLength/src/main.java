@@ -1,9 +1,9 @@
 // password length checker (password must be at least 8 characters long)
-import mypackage.stringLength;
+import mypackage.StringLength;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws Exception {
-        stringLength stringLength = new stringLength();
+        StringLength stringLength = new StringLength();
         stringLength.checkPassword();
     }
 }

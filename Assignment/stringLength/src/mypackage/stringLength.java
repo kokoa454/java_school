@@ -1,7 +1,7 @@
 package mypackage;
 import java.util.Scanner;
 
-public class stringLength {
+public class StringLength {
     public void checkPassword() {
         Scanner scanner = new Scanner(System.in);
 

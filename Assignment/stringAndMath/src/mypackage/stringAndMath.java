@@ -2,7 +2,7 @@ package mypackage;
 
 import java.util.Scanner;
 
-public class stringAndMath {
+public class StringAndMath {
     public void checkLuck() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("名前を入力: ");

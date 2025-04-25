@@ -1,9 +1,9 @@
 // company employees list splitter
-import mypackage.stringSplit;
+import mypackage.StringSplit;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws Exception {
-        stringSplit stringSplit = new stringSplit();
+        StringSplit stringSplit = new StringSplit();
         stringSplit.splitList();
     }
 }

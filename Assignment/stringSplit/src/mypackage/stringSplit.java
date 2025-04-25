@@ -1,7 +1,7 @@
 package mypackage;
 import java.util.List;
 
-public class stringSplit {
+public class StringSplit {
     public void splitList() {
         List<String> employees = List.of(
             "武藤敬司, 61, 男, NE",
