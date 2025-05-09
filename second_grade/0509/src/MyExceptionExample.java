@@ -4,18 +4,22 @@ class InvalidAgeException extends Exception {
     }
 }
 
+class Person{
+    int age;
+    void setAge(int age) throws InvalidAgeException {
+        if(age < 0){
+            throw new InvalidAgeException("年齢にマイナスの値が指定されました");
+        }
+        this.age = age;
+    }
+}
+
 public class MyExceptionExample {
     public static void main(String[] args) throws Exception {
-        int age = -10;
-
+        Person p = new Person();
         try{
-            if (age < 0) {
-                throw new InvalidAgeException("年齢にマイナスの値が指定されました");
-            } 
-
-            System.out.println("年齢:" + age);
-        }catch(InvalidAgeException e) {
-            System.out.println("例外をキャッチしました");
+            p.setAge(-5);
+        } catch(InvalidAgeException e){
             System.out.println(e);
         }
     }
